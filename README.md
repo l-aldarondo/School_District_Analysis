@@ -23,42 +23,42 @@ We have been ask to replace the math and reading scores for Thomas High School w
 
 * How is the district summary affected?
 
-![Challenge_Distict_Summary](./Images/challenge_district_summary.png)
+    ![Challenge_Distict_Summary](./Images/challenge_district_summary.png)
 
-<sub>Figure 1.1 Challenge district symmary
+    <sub>Figure 1.1 Challenge district symmary
 
-![Pycity_District_Summary](./Images/Pycity_district_summary.png)
+    ![Pycity_District_Summary](./Images/Pycity_district_summary.png)
 
-<sub>Figure 1.2 Original district summary
+    <sub>Figure 1.2 Original district summary
 
 * How is the school summary affected?
 
-![Challenge_Per_Schools_Summary](./Images/challenge_per_school_summary.png)
+    ![Challenge_Per_Schools_Summary](./Images/challenge_per_school_summary.png)
 
-<sub>Figure 1.3 Challenge schools summary
+    <sub>Figure 1.3 Challenge schools summary
 
-![Pycity_Per_School_Summary](./Images/Pycity_per_school_summary.png)
+    ![Pycity_Per_School_Summary](./Images/Pycity_per_school_summary.png)
 
-<sub>Figure 1.4 Original school summary
+    <sub>Figure 1.4 Original school summary
 
 
 * How does replacing the ninth graders’ math and reading scores affect Thomas High School’s performance relative to the other schools?
 
-![Challenge_Top_Schools](./Images/challenge_top_schools.png)
+    ![Challenge_Top_Schools](./Images/challenge_top_schools.png)
 
-<sub>Figure 1.5 Challenge top schools
+    <sub>Figure 1.5 Challenge top schools
 
-![Challene_Low_Schools](./Images/challenge_low_schools.png)
+    ![Challene_Low_Schools](./Images/challenge_low_schools.png)
 
-<sub>Figure 1.6 Challenge low schools
+    <sub>Figure 1.6 Challenge low schools
 
-![Pycity_Top_Schools](./Images/Pycity_top_schools.png)
+    ![Pycity_Top_Schools](./Images/Pycity_top_schools.png)
 
-<sub>Figure 1.7 Original top schools
+    <sub>Figure 1.7 Original top schools
 
-![Pycity_Low_Schools](./Images/Pycity_low_schools.png)
+    ![Pycity_Low_Schools](./Images/Pycity_low_schools.png)
 
-<sub>Figure 1.8 Original low schools
+    <sub>Figure 1.8 Original low schools
 
 
 
@@ -67,26 +67,26 @@ We have been ask to replace the math and reading scores for Thomas High School w
 
 * #### Math and reading scores by grade
 
-![Challenge_Math_Scores_by_Grade](./Images/challenge_math_score_by_grade.png)
+    ![Challenge_Math_Scores_by_Grade](./Images/challenge_math_score_by_grade.png)
 
-<sub>Figure 1.9 Challenge math scores by grade
+    <sub>Figure 1.9 Challenge math scores by grade
 
-![Challenge_Reading_Scores_by_Grade](./Images/challenge_reading_score_by_grade.png)
+    ![Challenge_Reading_Scores_by_Grade](./Images/challenge_reading_score_by_grade.png)
 
-<sub>Figure 1.10 Challenge reading scores by gade
+    <sub>Figure 1.10 Challenge reading scores by gade
 
-![Pycity_Math_Scores_by_Grade](./Images/Pycity_math_score_by_grade.png)
+    ![Pycity_Math_Scores_by_Grade](./Images/Pycity_math_score_by_grade.png)
 
-<sub>Figure 1.11 Original math scores by grade
+    <sub>Figure 1.11 Original math scores by grade
 
-![Pycity_Reading_Scores_by_Grade](./Images/Pycity_reading_score_by_grade.png)
+    ![Pycity_Reading_Scores_by_Grade](./Images/Pycity_reading_score_by_grade.png)
 
-<sub>Figure 1.12 Original reading scores by grade
+    <sub>Figure 1.12 Original reading scores by grade
 
 
 * #### Scores by school spending
 
-Small and Medium size schools outperformed larger size schools in math scores, reading scores and in all % to include % Oveall Passing. The larger schools percentage pasing is very differnt and is pulling the overal passing percentage down for district schools.
+    Small and Medium size schools outperformed larger size schools in math scores, reading scores and in all % to include % Oveall Passing. The larger schools percentage pasing is very differnt and is pulling the overal passing percentage down for district schools.
 
     ![Challenge_Scores_By_Spending](./Images/challenge_score_by_spending.png)
 
@@ -98,7 +98,7 @@ Small and Medium size schools outperformed larger size schools in math scores, r
 
 * #### Scores by school size
 
-Small and Medium size schools outperformed larger size schools in math scores, reading scores and in all % to include % Oveall Passing. The larger schools percentage pasing is very differnt and is pulling the overal passing percentage down for district schools.
+    Small and Medium size schools outperformed larger size schools in math scores, reading scores and in all % to include % Oveall Passing. The larger schools percentage pasing is very differnt and is pulling the overal passing percentage down for district schools.
 
     ![Challenge_Scores_By_School_Size](./Images/challenge_score_by_school_size.png)
 
