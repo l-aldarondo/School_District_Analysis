@@ -19,7 +19,7 @@ The purpose of this project is to analyze a school district's standardized test 
 
 * How is the district summary affected?
 
-  * At the district level there was no major impact on the overall results when we removed the 9th grade scores from Thomas High School. When we compared Fig 1.1 and Fig 1.2, the overall passing percentage only changed by 0.1%. This could be because the grades for the ninth grade represent a small portion compared to the rest of the population in the district.
+  * At the district level there was no major impact on the overall results when we replaced the 9th grade scores from Thomas High School. When we compared Fig 1.1 and Fig 1.2, the overall passing percentage only changed by 0.1%. This could be because the grades for the ninth grade represent a small portion compared to the rest of the population in the district.
 
 ![Challenge_Distict_Summary](./Images/challenge_district_summary.png)
 
@@ -67,7 +67,7 @@ The purpose of this project is to analyze a school district's standardized test 
 
 * #### Math and reading scores by grade
   
-    * Replacing the scores with n/a as shown in Fig 1.9 - 1.10, caused that the overall passing score for Thomas High School dropped to 65.1% (Fig 1.11). However when we recalculate the percentage of students who passed math, passed reading, and passed both math and reading for Thomas High School the school the overall passing rate was **90.63%** (Fig 1.12)
+    * Replacing the scores with n/a as shown in Fig 1.9 - 1.10, caused that the overall passing score for Thomas High School dropped to 65.1% (Fig 1.11). However when we recalculate the percentage of students who passed math, passed reading, and passed both math and reading for Thomas High School the school overall passing rate was **90.63%** (Fig 1.12)
 
 ![Challenge_Math_Scores_by_Grade](./Images/challenge_math_score_by_grade.png)
 
@@ -88,7 +88,7 @@ The purpose of this project is to analyze a school district's standardized test 
 
 * #### Scores by school spending
 
-  * Schools that spent less per student outperformed schools that spent more per student. As we can see in Fig 1.13 and 1.14, the schools that spended $646-665 per student had considerably lower scores compared to schools that spent <$586 which had the highest overall scores.
+  * The % passing and average scores did not increased as spending per student increased. Schools that spent less per student outperformed schools that spent more per student. As we can see in Fig 1.13 and 1.14, the schools that spended 645 - 660 per student had considerably lower scores compared to schools that spent <586 which had the highest overall scores.
 
 ![Challenge_Scores_By_Spending](./Images/challenge_score_by_spending.png)
 
