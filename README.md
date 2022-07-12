@@ -124,13 +124,14 @@ The purpose of this project is to analyze a school district's standardized test 
 
 ## Summary
 
+* The replacement of the scores for Thomas High school had minimal effect on the school ranking. The school was dropped from the top 5 schools in the district. But when we recalculate the percentage of students who passed math, passed reading, and passed both math and reading for Thomas High School the school returned to the **second place**  
+    
 * The overall district summary changed by **0.1%** for Thomas High school.
 
 * The overall per school summary dropped by **0.32%** for Thomas High School.
 
 * Replacing the scores with n/a caused that the overall passing score for Thomas High School dropped to 65%.. However when we recalculate the percentage of students who passed math, passed reading, and passed both math and reading for Thomas High School the school the overall passing rate was **90.63%**
 
-* The replacement of the scores for Thomas High school had minimal effect on the school ranking. The school was dropped from the top 5 schools in the district. But when we recalculate the percentage of students who passed math, passed reading, and passed both math and reading for Thomas High School the school returned to the **second place**
 
 
 ## References
