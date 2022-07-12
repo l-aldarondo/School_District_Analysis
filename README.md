@@ -1,16 +1,12 @@
 # School_District_Analysis
 
-Python School District Standardized Test Analysis
-
 ## Background
 
-The chief Data Scientist for a school district is preparing an all standardized test analysis to provide insight in performance trends and patterns. We were asked to help "The Chief Data Scientist" analyze data on student fundings and standardized tests using Python.
+Python School District Standardized Test Analysis
 
 ## Project Overview
 
-The school board has notified that the students_complete.csv file shows evidence of academic dishonesty; specifically, reading and math grades for Thomas High School ninth graders appear to have been altered.
-
-We have been asked to replace the math and reading scores for Thomas High School with NaNs while keeping the rest of the data intact. Once we’ve replaced the math and reading scores, we need to repeat the school district analysis and write up a report to describe how these changes affected the overall analysis.
+The purpose of this project is to analyze a school district's standardized test and student funding to provide insight into performance trends and patterns. Due to the potentially dishonesty from one group of students, our client has requested to perform the analysis twice. One analysis included the entire set of data and the second analysis replaced or omitted  an specific grade scores. A complete assessment on implications and changes of replacing or omitting data is provided as part of this project.
 
 ## Resources
 
@@ -23,7 +19,7 @@ We have been asked to replace the math and reading scores for Thomas High School
 
 * How is the district summary affected?
 
-  * At the district level there is no impact on the overall results when we remove the 9th grade scores from Thomas High School, as we can see when we compare Fig 1.1 and Fig 1.2. This could be because the grades for the ninth grade represent a small number compared to the rest of the population in the district.
+  * At the district level there was no major impact on the overall results when we removed the 9th grade scores from Thomas High School. When we compared Fig 1.1 and Fig 1.2, the overall passing percentage only changed by 0.1%. This could be because the grades for the ninth grade represent a small portion compared to the rest of the population in the district.
 
 ![Challenge_Distict_Summary](./Images/challenge_district_summary.png)
 
@@ -35,7 +31,7 @@ We have been asked to replace the math and reading scores for Thomas High School
 
 * How is the school summary affected?
   
-  * Something similar happens when we compare Fig 1.3 and Fig 1.4, there are no big change on the results on the school summary table.
+  * Something similar happened when we compared the data per school in Fig 1.3 and Fig 1.4, there were no big changes on the results on the school summary DataFrame. The overall passing score for Thomas High School only changed by 0.32%.
   
 ![Challenge_Per_Schools_Summary](./Images/challenge_per_school_summary.png)
 
@@ -71,7 +67,7 @@ We have been asked to replace the math and reading scores for Thomas High School
 
 * #### Math and reading scores by grade
   
-    * After replacing Thomas High school 9th grade scores for both math and reading with n/a, the average score remained the same when compared with the original analysis, as we can see in (Fig 1.9 - 1.12).
+    * Replacing the scores with n/a as shown in Fig 1.9 - 1.10, caused that the overall passing score for Thomas High School dropped to 65.1% (Fig 1.11). However when we recalculate the percentage of students who passed math, passed reading, and passed both math and reading for Thomas High School the school the overall passing rate was **90.63%** (Fig 1.12)
 
 ![Challenge_Math_Scores_by_Grade](./Images/challenge_math_score_by_grade.png)
 
@@ -128,11 +124,14 @@ We have been asked to replace the math and reading scores for Thomas High School
 
 ## Summary
 
-Statement
-* change 1
-* change 2
-* change 3
-* change 4
+* The overall district summary changed by **0.1%** for Thomas High school.
+
+* The overall per school summary dropped by **0.32%** for Thomas High School.
+
+* Replacing the scores with n/a caused that the overall passing score for Thomas High School dropped to 65%.. However when we recalculate the percentage of students who passed math, passed reading, and passed both math and reading for Thomas High School the school the overall passing rate was **90.63%**
+
+* The replacement of the scores for Thomas High school had minimal effect on the school ranking. The school was dropped from the top 5 schools in the district. But when we recalculate the percentage of students who passed math, passed reading, and passed both math and reading for Thomas High School the school returned to the **second place**
+
 
 ## References
 
