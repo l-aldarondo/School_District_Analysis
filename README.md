@@ -4,13 +4,13 @@ Python School District Standardized Test Analysis
 
 ## Background
 
-The chieft Data Scientist for a school district is preparing an all standarized test analysis to provide insight in performance trend and patterns. We were asked to help "The Chief Data Scientist" analyze data on student fundings and standarized test using Python.
+The chief Data Scientist for a school district is preparing an all standardized test analysis to provide insight in performance trends and patterns. We were asked to help "The Chief Data Scientist" analyze data on student fundings and standardized tests using Python.
 
 ## Project Overview
 
 The school board has notified that the students_complete.csv file shows evidence of academic dishonesty; specifically, reading and math grades for Thomas High School ninth graders appear to have been altered.
 
-We have been ask to replace the math and reading scores for Thomas High School with NaNs while keeping the rest of the data intact. Once we’ve replaced the math and reading scores, then to repeat the school district analysis and write up a report to describe how these changes affected the overall analysis.
+We have been asked to replace the math and reading scores for Thomas High School with NaNs while keeping the rest of the data intact. Once we’ve replaced the math and reading scores, we need to repeat the school district analysis and write up a report to describe how these changes affected the overall analysis.
 
 ## Resources
 
@@ -23,6 +23,8 @@ We have been ask to replace the math and reading scores for Thomas High School w
 
 * How is the district summary affected?
 
+  * At the district level there is no impact on the overall results when we remove the 9th grade scores from Thomas High School, as we can see when we compare Fig 1.1 and Fig 1.2. This could be because the grades for the ninth grade represent a small number compared to the rest of the population in the district.
+
 ![Challenge_Distict_Summary](./Images/challenge_district_summary.png)
 
 <sub>Figure 1.1 Challenge district symmary
@@ -32,7 +34,9 @@ We have been ask to replace the math and reading scores for Thomas High School w
 <sub>Figure 1.2 Original district summary
 
 * How is the school summary affected?
-
+  
+  * Something similar happens when we compare Fig 1.3 and Fig 1.4, there are no big change on the results on the school summary table.
+  
 ![Challenge_Per_Schools_Summary](./Images/challenge_per_school_summary.png)
 
 <sub>Figure 1.3 Challenge schools summary
@@ -43,6 +47,8 @@ We have been ask to replace the math and reading scores for Thomas High School w
 
 
 * How does replacing the ninth graders’ math and reading scores affect Thomas High School’s performance relative to the other schools?
+  
+  * When we compare Fig 1.5 - 1.8, the top 5 schools and the low 5 schools remain the same. Thomas High School remains in the 2nd position of the top 5 schools, before and after the change and the values remain almost the same. Therefore we can conclude that the change didn't affect THS in relation to the other schools.
 
 ![Challenge_Top_Schools](./Images/challenge_top_schools.png)
 
@@ -61,11 +67,11 @@ We have been ask to replace the math and reading scores for Thomas High School w
 <sub>Figure 1.8 Original low schools
 
 
-
-
 * How does replacing the ninth-grade scores affect the following:
 
 * #### Math and reading scores by grade
+  
+    * After replacing Thomas High school 9th grade scores for both math and reading with n/a, the average score remained the same when compared with the original analysis, as we can see in (Fig 1.9 - 1.12).
 
 ![Challenge_Math_Scores_by_Grade](./Images/challenge_math_score_by_grade.png)
 
@@ -86,7 +92,7 @@ We have been ask to replace the math and reading scores for Thomas High School w
 
 * #### Scores by school spending
 
-Small and Medium size schools outperformed larger size schools in math scores, reading scores and in all % to include % Oveall Passing. The larger schools percentage pasing is very differnt and is pulling the overal passing percentage down for district schools.
+  * Schools that spent less per student outperformed schools that spent more per student. As we can see in Fig 1.13 and 1.14, the schools that spended $646-665 per student had considerably lower scores compared to schools that spent <$586 which had the highest overall scores.
 
 ![Challenge_Scores_By_Spending](./Images/challenge_score_by_spending.png)
 
@@ -98,7 +104,7 @@ Small and Medium size schools outperformed larger size schools in math scores, r
 
 * #### Scores by school size
 
-Small and Medium size schools outperformed larger size schools in math scores, reading scores and in all % to include % Oveall Passing. The larger schools percentage pasing is very differnt and is pulling the overal passing percentage down for district schools.
+  * Small and Medium size schools outperformed larger size schools in math scores, reading scores and in all % to include % Overall Passing. The larger schools percentage passing is very different and is pulling the overall passing percentage down for district schools. (Fig 1.15 - 1.16)
 
 ![Challenge_Scores_By_School_Size](./Images/challenge_score_by_school_size.png)
 
@@ -110,7 +116,7 @@ Small and Medium size schools outperformed larger size schools in math scores, r
 
 * #### Scores by school type
 
-Charter schools outperformed district schools in math scores, reading scores and in all % to include % Oveall Passing. The percentage pasing math is  very differnt and is pulling the overal passing percentage down for district schools.
+  * Charter schools outperformed district schools in math scores, reading scores and in all % to include % Overall Passing. The percentage passing math is  very different and is pulling the overall passing percentage down for district schools.(Fig 1.17 -1.18)
 
 ![Challenge_Scores_By_School_Type](./Images/challenge_score_by_school_type.png)
 
