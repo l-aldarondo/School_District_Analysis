@@ -77,13 +77,13 @@ The purpose of this project is to analyze a school district's standardized test 
 
 <sub>Figure 1.10 Challenge reading scores by gade
 
-![Pycity_Math_Scores_by_Grade](./Images/Pycity_math_score_by_grade.png)
+![Pycity_Math_Scores_by_Grade](./Images/per_school_without%20_replacment.png)
 
-<sub>Figure 1.11 Original math scores by grade
+<sub>Figure 1.11 Thomas High School %Passing after replacement
 
-![Pycity_Reading_Scores_by_Grade](./Images/Pycity_reading_score_by_grade.png)
+![Pycity_Reading_Scores_by_Grade](./Images/per_school_after_replacement.png)
 
-<sub>Figure 1.12 Original reading scores by grade
+<sub>Figure 1.12 Thomas High School %Passing recalculated
 
 
 * #### Scores by school spending
