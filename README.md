@@ -42,7 +42,7 @@ Python School District Standardized Test Analysis
   
  Replacing the scores with "nan" as shown in Fig 1.6, caused the overall passing score for Thomas High School to drop to **65.1%** (Fig 1.6). However when we recalculate the percentage of students who passed math, passed reading, and passed both math and reading for Thomas High School the school overall passing rate was **90.63%** (Fig 1.7). 
 
- When we compared (Fig 1.5 - 1.7), Thomas High School was dropped from the top 5 schools however after we recalculated the values THS returned to the top 5 schools. Thomas High School remains in the *2nd position** of the top 5 schools. Therefore we can conclude that the change after we recalculated the % passing didn't affect THS in relation to the other schools.
+ When we compared (Fig 1.5 - 1.7), Thomas High School was dropped from the top 5 schools however after we recalculated the values THS returned to the top 5 schools. Thomas High School remains in the **2nd position** of the top 5 schools. Therefore we can conclude that the change after we recalculated the % passing didn't affect THS in relation to the other schools.
 
 
 ![Pycity_Top_Schools](./Images/Pycity_top_schools.png)
