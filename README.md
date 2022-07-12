@@ -17,7 +17,6 @@ The purpose of this project is to analyze a school district's standardized test 
 
 ### Analysis
 
-* How is the district summary affected?
 
   * At the district level there was no major impact on the overall results when we replaced the 9th grade scores from Thomas High School. When we compared Fig 1.1 and Fig 1.2, the overall passing percentage only changed by 0.1%. This could be because the grades for the ninth grade represent a small portion compared to the rest of the population in the district.
 
@@ -29,9 +28,8 @@ The purpose of this project is to analyze a school district's standardized test 
 
 <sub>Figure 1.2 Original district summary
 
-* How is the school summary affected?
-  
-  * Something similar happened when we compared the data per school in Fig 1.3 and Fig 1.4, there were no big changes on the results on the school summary DataFrame. The overall passing score for Thomas High School only changed by 0.32%.
+
+  * Something similar happened when we compared the data in the school summary in Fig 1.3 and Fig 1.4. There were no big changes on the results on the school summary DataFrame. The overall passing score for Thomas High School only changed by 0.32%, again this could e because the "9th" grade population is a small portion of the whole district as we stated above.
   
 ![Challenge_Per_Schools_Summary](./Images/challenge_per_school_summary.png)
 
@@ -41,10 +39,9 @@ The purpose of this project is to analyze a school district's standardized test 
 
 <sub>Figure 1.4 Original school summary
 
-
-* How does replacing the ninth graders’ math and reading scores affect Thomas High School’s performance relative to the other schools?
   
-  * When we compare Fig 1.5 - 1.8, the top 5 schools and the low 5 schools remain the same. Thomas High School remains in the 2nd position of the top 5 schools, before and after the change and the values remain almost the same. Therefore we can conclude that the change didn't affect THS in relation to the other schools.
+    * Replacing the scores with "nan" as shown in Fig 1.9 - 1.10, caused that the overall passing score for Thomas High School dropped to 65.1% (Fig 1.11). However when we recalculate the percentage of students who passed math, passed reading, and passed both math and reading for Thomas High School the school overall passing rate was **90.63%** (Fig 1.12).
+    When we compared Fig 1.5 - 1.8, Thomas High School was dropped from the top 5 schools however after we recalculated the values THS returned to the top 5 schools. Thomas High School remains in the 2nd position of the top 5 schools. Therefore we can conclude that the change after we recalculated the % passing didn't affect THS in relation to the other schools.
 
 ![Challenge_Top_Schools](./Images/challenge_top_schools.png)
 
@@ -63,11 +60,10 @@ The purpose of this project is to analyze a school district's standardized test 
 <sub>Figure 1.8 Original low schools
 
 
-* How does replacing the ninth-grade scores affect the following:
 
 * #### Math and reading scores by grade
   
-    * Replacing the scores with n/a as shown in Fig 1.9 - 1.10, caused that the overall passing score for Thomas High School dropped to 65.1% (Fig 1.11). However when we recalculate the percentage of students who passed math, passed reading, and passed both math and reading for Thomas High School the school overall passing rate was **90.63%** (Fig 1.12)
+  Repacing the ninth grade score with "nan" caused the omition of the entire 9th grade population, therefore this specific group didnt have individuals or collective scores or percentages to count against the schoo Overall scores. The math and reading scores for Thomas High school increased by 0.06% and 0.1% respectively after we replaced the score for th ninth grade.
 
 ![Challenge_Math_Scores_by_Grade](./Images/challenge_math_score_by_grade.png)
 
@@ -124,11 +120,13 @@ The purpose of this project is to analyze a school district's standardized test 
 
 ## Summary
 
-* The replacement of the scores for Thomas High school had minimal effect on the school ranking. The school was dropped from the top 5 schools in the district. But when we recalculate the percentage of students who passed math, passed reading, and passed both math and reading for Thomas High School the school returned to the **second place**  
+The replacement of the scores for Thomas High school had minimal effect on the school ranking. The school was dropped from the top 5 schools in the district. But when we recalculate the percentage of students who passed math, passed reading, and passed both math and reading for Thomas High School the school returned to the **second place**.
     
 * The overall district summary changed by **0.1%** for Thomas High school.
 
 * The overall per school summary dropped by **0.32%** for Thomas High School.
+
+* Thomas High school math and reading scores increased by 0.06% and 0.1% respectively after we replaced the score for th ninth grade.
 
 * Replacing the scores with n/a caused that the overall passing score for Thomas High School dropped to 65%.. However when we recalculate the percentage of students who passed math, passed reading, and passed both math and reading for Thomas High School the school the overall passing rate was **90.63%**
 
@@ -139,4 +137,3 @@ The purpose of this project is to analyze a school district's standardized test 
 [Markdown 1](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax)
 
 [Markdown 2](https://www.markdownguide.org/basic-syntax/)
-
