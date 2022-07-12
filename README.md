@@ -40,78 +40,78 @@ Python School District Standardized Test Analysis
 <sub>Figure 1.4 Original school summary
 
   
- Replacing the scores with "nan" as shown in Fig 1.9 - 1.10, caused the overall passing score for Thomas High School to drop to 65.1% (Fig 1.11). However when we recalculate the percentage of students who passed math, passed reading, and passed both math and reading for Thomas High School the school overall passing rate was **90.63%** (Fig 1.12). 
+ Replacing the scores with "nan" as shown in Fig 1.6, caused the overall passing score for Thomas High School to drop to **65.1%** (Fig 1.6). However when we recalculate the percentage of students who passed math, passed reading, and passed both math and reading for Thomas High School the school overall passing rate was **90.63%** (Fig 1.7). 
 
- When we compared Fig 1.5 - 1.8, Thomas High School was dropped from the top 5 schools however after we recalculated the values THS returned to the top 5 schools. Thomas High School remains in the 2nd position of the top 5 schools. Therefore we can conclude that the change after we recalculated the % passing didn't affect THS in relation to the other schools.
+ When we compared (Fig 1.5 - 1.7), Thomas High School was dropped from the top 5 schools however after we recalculated the values THS returned to the top 5 schools. Thomas High School remains in the *2nd position** of the top 5 schools. Therefore we can conclude that the change after we recalculated the % passing didn't affect THS in relation to the other schools.
 
 
 ![Pycity_Top_Schools](./Images/Pycity_top_schools.png)
-<sub>Figure 1.7 Original top schools
+<sub>Figure 1.5 Original top schools
 
 ![Pycity_Math_Scores_by_Grade](./Images/per_school_without%20_replacment.png)
-<sub>Figure 1.11 Thomas High School %Passing after replacement
+<sub>Figure 1.6 Thomas High School %Passing after replacement
 
 
 ![Pycity_Reading_Scores_by_Grade](./Images/per_school_after_replacement.png)
-<sub>Figure 1.12 Thomas High School %Passing recalculated
+<sub>Figure 1.7 Thomas High School %Passing recalculated
 
 
 #### Math and reading scores by grade
   
- Repacing the ninth grade score with "nan" caused the omition of the entire 9th grade population, therefore this specific group didnt have individuals or collective scores or percentages to count against the schoo Overall scores. The math and reading scores for Thomas High school increased by 0.06% and 0.1% respectively after we replaced the score for th ninth grade.
+ Repacing the ninth grade score with "nan" (Fig 1.8) caused the omition of the entire 9th grade population, therefore this specific group didnt have individuals or collective scores or percentages to count against the school Overall scores. The math and reading scores for Thomas High school increased by **0.06%** and **0.1%** (Figure 1.8 - 1.11) respectively after we replaced the score for th ninth grade.
 
 ![Challenge_Math_Scores_by_Grade](./Images/challenge_math_score_by_grade.png)
 
-<sub>Figure 1.9 Challenge math scores by grade
+<sub>Figure 1.8 Challenge math scores by grade
 
 ![Challenge_Reading_Scores_by_Grade](./Images/challenge_reading_score_by_grade.png)
 
-<sub>Figure 1.10 Challenge reading scores by gade
+<sub>Figure 1.9 Challenge reading scores by gade
 
 ![Pycity_Reading_Scores_by_Grade](./Images/Pycity_math_score_by_grade.png)
 
-<sub>Original math scores by grade
+<sub>Figure 1.10 Original math scores by grade
 
 ![Pycity_Reading_Scores_by_Grade](./Images/Pycity_reading_score_by_grade.png)
 
-<sub>Original reading scores by grade
+<sub>Figure 1.11 Original reading scores by grade
 
 
 #### Scores by school spending
 
- The % passing and average scores did not increased as spending per student increased. Schools that spent less per student outperformed schools that spent more per student. As we can see in Fig 1.13 and 1.14, the schools that spended 645 - 660 per student had considerably lower scores compared to schools that spent <586 which had the highest overall scores.
+ The % passing and average scores did not increased as spending per student increased. Schools that spent less per student outperformed schools that spent more per student. As we can see in Fig 1.12 and 1.13, the schools that spended $645 - 660 per student had considerably lower scores compared to schools that spent <$586 which had the highest overall scores.
 
 ![Challenge_Scores_By_Spending](./Images/challenge_score_by_spending.png)
 
-<sub>Figure 1.13 Challenge scores by spending
+<sub>Figure 1.12 Challenge scores by spending
 
 ![Pycity_SCores_By_Spending](./Images/Pycity_score_by_spending.png)
 
-<sub>Figure 1.14 Original scores by spending
+<sub>Figure 1.13 Original scores by spending
 
 #### Scores by school size
 
- Small and Medium size schools outperformed larger size schools in math scores, reading scores and in all % to include % Overall Passing. The larger schools percentage passing is very different and is pulling the overall passing percentage down for district schools. (Fig 1.15 - 1.16)
+Small and Medium size schools outperformed larger size schools in math scores, reading scores and in all % to include % Overall Passing. The larger schools percentage passing is very different and is pulling the overall passing percentage down for district schools. (Fig 1.14 - 1.15)
 
 ![Challenge_Scores_By_School_Size](./Images/challenge_score_by_school_size.png)
 
-<sub>Figure 1.15 Challenge scores by school size
+<sub>Figure 1.14 Challenge scores by school size
 
 ![Pycity_Scores_By_School_Size](./Images/Pycity_score_by_school_size.png)
 
-<sub>Figure 1.16 Original scores by school size
+<sub>Figure 1.15 Original scores by school size
 
 #### Scores by school type
 
- Charter schools outperformed district schools in math scores, reading scores and in all % to include % Overall Passing. The percentage passing math is  very different and is pulling the overall passing percentage down for district schools.(Fig 1.17 -1.18)
+ Charter schools outperformed district schools in math scores, reading scores and in all % to include % Overall Passing. The percentage passing math is  very different and is pulling the overall passing percentage down for district schools.(Fig 1.16 -1.17)
 
 ![Challenge_Scores_By_School_Type](./Images/challenge_score_by_school_type.png)
 
-<sub>Figure 1.17 Challenge scores by school type
+<sub>Figure 1.16 Challenge scores by school type
 
 ![Pycity_Scores_By_School_Type](./Images/Pycity_score_by_school_type.png)
 
-<sub>Figure 1.18 Original scores by school type
+<sub>Figure 1.17 Original scores by school type
 
 ## Summary
 
