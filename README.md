@@ -55,7 +55,7 @@ Python School District Standardized Test Analysis
 <br/>
 
 ![Pycity_Top_Schools](./Images/Pycity_top_schools.png)
-<sub>Figure 1.5 Original top schools
+<sub>Figure 1.5 District top schools original analysis.
 
 <br/>
 
@@ -65,7 +65,7 @@ Python School District Standardized Test Analysis
 <br/>
 
 ![Pycity_Reading_Scores_by_Grade](./Images/per_school_after_replacement.png)
-<sub>Figure 1.7 Thomas High School %Passing recalculated
+<sub>Figure 1.7 Thomas High School %Passing recalculated.
 
 <br/>
 
@@ -77,25 +77,25 @@ Python School District Standardized Test Analysis
 
 ![Challenge_Math_Scores_by_Grade](./Images/challenge_math_score_by_grade.png)
 
-<sub>Figure 1.8 Challenge math scores by grade
+<sub>Figure 1.8 Schools math scores by grade after replacement.
 
 <br/>
 
 ![Challenge_Reading_Scores_by_Grade](./Images/challenge_reading_score_by_grade.png)
 
-<sub>Figure 1.9 Challenge reading scores by grade
+<sub>Figure 1.9 Schools reading scores by grade after replacement.
 
 <br/>
 
 ![Pycity_Reading_Scores_by_Grade](./Images/Pycity_math_score_by_grade.png)
 
-<sub>Figure 1.10 Original math scores by grade
+<sub>Figure 1.10 Math scores by grade original analysis.
 
 <br/>
 
 ![Pycity_Reading_Scores_by_Grade](./Images/Pycity_reading_score_by_grade.png)
 
-<sub>Figure 1.11 Original reading scores by grade
+<sub>Figure 1.11 Reading scores by grade original analysis.
 
 <br/>
 
@@ -105,11 +105,15 @@ The average scores and the %passing math, %passing reading, and %passing overall
 
 ![Challenge_Scores_By_Spending](./Images/challenge_score_by_spending.png)
 
-<sub>Figure 1.12 Challenge scores by spending
+<sub>Figure 1.12 School scores by spending after replacement.
 
+ <br/>
+ 
 ![Pycity_SCores_By_Spending](./Images/Pycity_score_by_spending.png)
 
-<sub>Figure 1.13 Original scores by spending
+<sub>Figure 1.13 School scores by spending original analysis.
+ 
+ <br/>
 
 #### Scores by school size
 
@@ -119,13 +123,13 @@ Small and Medium size schools outperformed larger size schools in math scores, r
 
 ![Challenge_Scores_By_School_Size](./Images/challenge_score_by_school_size.png)
 
-<sub>Figure 1.14 Challenge scores by school size
+<sub>Figure 1.14 Scores by school size after replacement.
 
 <br/>
 
 ![Pycity_Scores_By_School_Size](./Images/Pycity_score_by_school_size.png)
 
-<sub>Figure 1.15 Original scores by school size
+<sub>Figure 1.15 Scores by school size original analysis.
 
 <br/>
 
@@ -137,13 +141,13 @@ Charter schools outperformed district schools in math scores, reading scores, an
 
 ![Challenge_Scores_By_School_Type](./Images/challenge_score_by_school_type.png)
 
-<sub>Figure 1.16 Challenge scores by school type
+<sub>Figure 1.16 Scores by school type after replacement.
 
 <br/>
 
 ![Pycity_Scores_By_School_Type](./Images/Pycity_score_by_school_type.png)
 
-<sub>Figure 1.17 Original scores by school type
+<sub>Figure 1.17 Scores by school type original analysis.
 
 <br/>
 
