@@ -149,7 +149,7 @@ Charter schools outperformed district schools in math scores, reading scores, an
 
 ## Summary
 
-The replacement of the scores for Thomas High school had minimal effect on the school ranking. At first, the school was dropped from the top 5 schools in the district. However, when we recalculate the percentage of students who passed math, passed reading, and passed both math and reading for Thomas High School after the replacement of scores, the school returned to the **second place**. Below is a summary of changes we observed during the analysis.
+The replacement of the scores for Thomas High school had minimal effect on the school ranking. At first, the school was dropped from the top 5 schools in the district. However, when we recalculated the percentage of students who passed math, passed reading, and passed both math and reading for Thomas High School after the replacement of scores, the school returned to the **second place**. Below is a summary of changes we observed during the analysis.
     
 * The overall district summary changed by **0.1%** for Thomas High school.
 
