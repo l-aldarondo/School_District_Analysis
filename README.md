@@ -101,7 +101,7 @@ Python School District Standardized Test Analysis
 
 #### Scores by school spending
 
-The average scores and the %passing math, %passing reading, and %passing overall did not increase as spending per student increased. Schools that spent less per student outperformed schools that spent more per student. As we can see in Fig 1.12 and 1.13, the schools that spent $645 - $660 per student had considerably lower scores compared to schools that spent <$586 which had the highest overall scores. Therefore, there were other factors other than budget that affected the schools' performace, for example we have to take into consideration the school size or type.  
+- The average scores and the %passing math, %passing reading, and %passing overall did not increase as spending per student increased. Schools that spent less per student outperformed schools that spent more per student. As we can see in Fig 1.12 and 1.13, the schools that spent $645 - $660 per student had considerably lower scores compared to schools that spent <$586 which had the highest overall scores. Therefore, there were other factors other than budget that affected the schools' performace, for example we have to take into consideration the school size or type.  
 
 ![Challenge_Scores_By_Spending](./Images/challenge_score_by_spending.png)
 
@@ -117,7 +117,7 @@ The average scores and the %passing math, %passing reading, and %passing overall
 
 #### Scores by school size
 
-Small and Medium size schools outperformed larger size schools in math scores, reading scores, and in all % to include the % Overall Passing. The larger schools percentage passing is very different and is pulling the overall passing percentage down for district schools. (Fig 1.14 - 1.15)
+- Small and Medium size schools outperformed larger size schools in math scores, reading scores, and in all % to include the % Overall Passing. The larger schools percentage passing is very different and is pulling the overall passing percentage down for district schools. (Fig 1.14 - 1.15)
 
 <br/>
 
@@ -135,7 +135,7 @@ Small and Medium size schools outperformed larger size schools in math scores, r
 
 #### Scores by school type
 
-Charter schools outperformed district schools in math scores, reading scores, and in all % to include % Overall Passing. The percentage passing math is  very different and is pulling the overall passing percentage down for district schools.(Fig 1.16 -1.17)
+- Charter schools outperformed district schools in math scores, reading scores, and in all % to include % Overall Passing. The percentage passing math is  very different and is pulling the overall passing percentage down for district schools.(Fig 1.16 -1.17)
 
 <br/>
 
